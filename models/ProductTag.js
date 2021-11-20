@@ -18,15 +18,15 @@ ProductTag.init(
       references: {
         model: 'product',
         key: 'id',
-        unique: fase
+        unique: false
       }
     },
-    location_id: {
+    tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'location',
+        model: 'tag',
         key: 'id',
-        unique: fase
+        unique: false
       }
     },
   },
