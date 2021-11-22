@@ -53,7 +53,9 @@
 
 ### Here is a video to demonstrate 
 
-![Usage sample video.](NA)
+[Demo video 1 - Command Line.](https://drive.google.com/file/d/1us1kymizkOJrow_6Mrdx7AafqgyHI9QM/view?usp=sharing)
+
+[Demo video 1 - GET, POST, PUT and Delete.](https://drive.google.com/file/d/10uA6IbKS8zK_1ST7LESHLOEn_37jatPQ/view?usp=sharing)
 
  --- 
 
@@ -66,13 +68,13 @@
 1. Clone the Github Repository to your local storage.
 2. Start up your favourite terminal.
 3. Navigate to the repository local folder.
-4. Run npm i to install dependencies
-5. Run mysql -u "username" -p
+4. Run 'npm i' to install dependencies
+5. Run 'mysql -u "username" -p'
 6. Input your mysql password associated to the "username"
-7. Run source ./db/schema.sql
-8. Run quit to get back to Terminal
-9. Run node ./seeds/index.js to seed the database
-10. Run npm start
+7. Run 'source ./db/schema.sql'
+8. Run 'quit" to get back to Terminal
+9. Run 'npm seed' to seed the database
+10. Run 'npm start'
 11. A professional e-commerce back end is now ready on the chosen PORT!
 
  --- 
